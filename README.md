@@ -1,4 +1,4 @@
-# Repositório de progresso do curso Linux Experience da Dio.
+# Repositório do Bootcamp Linux Experience da Dio.
 
 ## Cursos do Bootcamp
 
