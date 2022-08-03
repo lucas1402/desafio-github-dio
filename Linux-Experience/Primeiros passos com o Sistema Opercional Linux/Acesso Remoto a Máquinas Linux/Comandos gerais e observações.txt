@@ -1,0 +1,34 @@
+Para acessar o servidor linux via windowns é preciso colocar o ip do server no putty, basta digitar
+o comando no terminal do server para descobrir o ip:
+-ip a
+
+Instala o serviço ssh no servidor linux caso dê erro no putty:
+
+-apt-get install openssh-server 
+
+-Para executar como administrador use sudo <comando>
+
+Acessando servidor linux via linux
+Digite no Terminal:
+
+ssh usuario@ip
+
+ex: ssh lucas@192.168.1.11
+
+Acessando máquina virtual em nuvem(Putty)
+
+Abra o puttygen e convertar o arquivo chave pem da máquina virtual para ppk
+Abra o putty e vá em connection e ATH e adicionei a chave ppk, depois vá em section coloque o ip da máquina virtual e logue
+
+Acessando máquina virtual em nuvem(ssh)
+
+No terminal digite:
+
+ssh -i arquivo.pem usuario@ip
+
+ex: ssh -i Ubuntu-AWS.pem lucas@3.95.5.28
+
+Se der erro execute o comando:
+
+sudo chmod 600 Ubuntu-AWS.pem
+ssh -i Ubuntu-AWS.pem lucas@3.95.5.28
