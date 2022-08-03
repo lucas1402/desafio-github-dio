@@ -1,8 +1,9 @@
 # Repositório do Bootcamp Linux Experience da Dio.
 
-## Cursos do Bootcamp
+## Seções do Bootcamp
 
-- Introdução à Programação e Pensamento Computacional
-- Introdução ao Git e Github 
--  Introdução ao Sistema Operacional Linux
-- Instalando o Linux
+- Prepare-se Para jornada
+- Primeiros passos com o Sistema Opercional Linux
+- Configurando Servidores Linux
+
+###### Esse repositório contém as pastas referentes aos cursos do  bootcamp com arquivos e notas gerais sobre o conteúdo.
